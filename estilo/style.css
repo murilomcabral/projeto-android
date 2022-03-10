@@ -38,10 +38,9 @@ body {
 
 
  /*
-   Junto ao seletor é possível adicionar regras como demonstrado em
-   'a[rel=nofollow]::after'. O seletor 'a' aciona todas as ancoras, o atributo e valor, que deve estar entre couchetes, '[rel=nofollow]', indica uma regra. E por fim, o parâmetro '::after' indica o que se deve fazer.
-   O que está sendo dito nessa regra é:
-   Para todas as 'ancoras' que contenham o atributo 'rel' com valor 'nofollow' adicione a sua frente o seguinte.. e então entra a declaração com o conteúdo que será posto a frente da marcação.
+   attribute selector
+   tag[attr]
+   tag[attr=value]
 */
 
 a[rel=nofollow]::after {
